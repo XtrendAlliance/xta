@@ -1133,22 +1133,20 @@
 		<widget name="message" position="65,160" size="540,60" font="Regular;20" halign="center" valign="center" backgroundColor="black" transparent="1" />
 	</screen>
 
-  	<!-- XTA CAM Panel (OK) -->
- 	<screen name="ScNewSelection" position="0,0" size="1280,720" title="Softcam Setup" flags="wfNoBorder">
+  	<!-- Xtrend Cam Center -->
+ 	<!--screen name="XtrendCamCenter" position="0,0" size="1280,720" title="Xtrend Cam Center" flags="wfNoBorder">
 		<panel name="GenericLayoutLiteTemplate" /> 
  		<panel name="3ButtonsWb" /> 
 		<panel name="DarkLineBox200" /> 
- 		<widget name="cam"     position="65,75"  size="675,28" font="Regular; 22" halign="left" foregroundColor="blue" backgroundColor="black" transparent="1" />
- 		<widget name="server"  position="65,110" size="675,28" font="Regular; 20" halign="left" foregroundColor="blue"   backgroundColor="black" transparent="1" />
   		<eLabel position="65, 145" size="480, 1" backgroundColor="#303030" />
   		<eLabel position="65, 146" size="480, 1" backgroundColor="#202020" />
-      		<widget name="entries" position="65,160" size="680,180" font="Regular;20" itemHeight="30" zPosition="2" enableWrapAround="1" selectionPixmap="xta/bars/slider30.png" transparent="1" />
+      		<widget name="menu" position="65,160" size="680,180" font="Regular;20" itemHeight="30" zPosition="2" enableWrapAround="1" selectionPixmap="xta/bars/slider30.png" transparent="1" />
   		<eLabel position="65, 350" size="480, 1" backgroundColor="#303030" />
   		<eLabel position="65, 351" size="480, 1" backgroundColor="#202020" />
  		<widget name="text"  position="70,340"   size="600,360" zPosition="2" font="Regular;18" enableWrapAround="1" backgroundColor="black" foregroundColor="#808080" transparent="1" />
  		<widget name="text1" position="420,340"  size="600,360" zPosition="2" font="Regular;18" enableWrapAround="1" backgroundColor="black" transparent="1" />
   		<eLabel text="Press Menu for more options" position="65, 621" size="700, 26" font="Regular;20" halign="left" foregroundColor="yellow" backgroundColor="black" transparent="1" />
- 	</screen>
+ 	</screen-->
   
   	<!-- XTA AutoCam Setup (OK) -->
 	<screen name="AutoCamListSetup" position="0,0" size="1280,720" title="Auto-Camd List Setup" flags="wfNoBorder">
@@ -1179,12 +1177,12 @@
 	</screen>
 
 	<!-- XTA CAM Panel Menu (OK) -->
-	<screen name="ScSetupScreen" position="0,0" size="1280,720" title="Softcam Setup Menu" flags="wfNoBorder">
+	<!--screen name="ScSetupScreen" position="0,0" size="1280,720" title="Softcam Setup Menu" flags="wfNoBorder">
 		<panel name="GenericLayoutLiteTemplate" /> 
 		<panel name="2ButtonsC" /> 
 		<panel name="DarkLineBox" /> 
 		<widget name="config" position="65,90" size="675,240" font="Regular;20" itemHeight="30" enableWrapAround="1" selectionPixmap="xta/bars/slider30.png" transparent="1" />
-	</screen>
+	</screen-->
 
   	<!-- XTA StartCam (OK) -->
 	<screen name="XTDoStartCam" position="0,0" size="1280,720" title="Start CAM" flags="wfNoBorder">
